@@ -106,9 +106,6 @@ st.title("HR Schedule")
 st.write("### Add New Data")
 
 df = get_data()
-df['created'] = pd.to_datetime(df['created'])
-df['month'] = df['created'].dt.strftime('%B')
-
 def categorize_week(date):
     day = date.day
     if day <= 7:
@@ -120,28 +117,36 @@ def categorize_week(date):
     else:
         return "Week 4"
 
-df['week'] = df['created'].apply(categorize_week)
-
-edited_df = st.data_editor(
-    df,
-    num_rows="dynamic",
-    use_container_width=True
-)
-
-if st.button("Save Changes"):
-    st.warning("Changes are currently not saved to the database. Implement save logic if needed.")
-    st.success("Data displayed successfully!")
-
 month_order = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
 ]
 
+st.title("HR Schedule")
+
+# Editable data editor
+st.write("### Add New Data")
+
+df['created'] = pd.to_datetime(df['created'])
+df['month'] = df['created'].dt.strftime('%B')
+df['week'] = df['created'].apply(categorize_week)
+
+edited_df = st.data_editor(
+    df,
+    num_rows="dynamic",  # Allows adding new rows
+    use_container_width=True
+)
+
+# Save updated DataFrame if changed
+if st.button("Save Changes"):
+    edited_df.to_csv("tes.csv", index=False)
+    st.success("Data saved successfully!")
+
 df_pivot = df.pivot_table(
     index=['employee_name', 'position_name', 'month'],
     columns='week',
-    values='user_id',
-    aggfunc='count'
+    values='client_name',
+    aggfunc=lambda x: ', '.join(x.unique())
 ).reset_index()
 df_pivot.fillna('-', inplace=True)
 df_pivot['month'] = pd.Categorical(df_pivot['month'], categories=month_order, ordered=True)
