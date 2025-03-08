@@ -1,105 +1,105 @@
-,No,Jenis Pekerjaan,Nama Calon Klien,Detail Pekerjaan,Fee,PIC,Status,Notes
-0,1,DUE DILIGENCE,PT ABM Investama Tbk,FTDD diamond project,220000000,,Not confirmed,"info dari pak hans, saat ini tim nya masih fokus terhadap proses year end audit"
-1,2,AUDIT,PT Globalization Partners Indonesia,Audit 31 Desember 2024,35000000,,Confirmed,hc englet proses signing di klien
-2,3,AUDIT,PT Sany Heavy Industry Indonesia,Audit 31 Des 2023,100000000,,Confirmed,hc englet proses signing di klien
-3,4,AUDIT,PT Sany Indonesia Heavy Equipment,Audit 31 Des 2024,75000000,,Confirmed,hc englet proses signing di klien
-4,5,AUDIT,PT Sany Indonesia Machinery,Audit 31 Des 2024,175000000,,Confirmed,hc englet proses signing di klien
-5,6,AUDIT,PT Sany Indonesia Mining Equipment,Audit 31 Des 2024,75000000,,Confirmed,hc englet proses signing di klien
-6,7,KPPK,PT Agri Hikay,KPPK 31 Des 2024,12500000,,Confirmed,hc englet proses signing di klien
-7,8,KPPK,PT Agri Indomas,KPPK 31 Des 2024,12500000,,Confirmed,hc englet proses signing di klien
-8,9,KPPK,PT Petro Andalan Nusantara,KPPK 31 Des 2024,12500000,,Confirmed,hc englet proses signing di klien
-9,10,KPPK,PT Sentana Adidaya,KPPK 31 Des 2024,12500000,,Confirmed,hc englet proses signing di klien
-10,11,IFRS,Undip,PSAK 71 dan 73,150000000,,Confirmed,sedang proses drafting englet di klien
-11,12,AUDIT,PT Aria Hijau Alamlestari,Audit 31 Des 2024,82250000,,Confirmed,hc englet proses signing di klien
-12,13,IFRS,PT Dayamitra Telekomunikasi,Pendampingan implementasi PSAK 71 2025,120000000,,Confirmed,tim internal mitratel sedang proses persiapan dokumen2 utk ke pengadaan
-13,14,IFRS,PT Hexindo Adiperkasa,Implementasi PSAK 71 31 Maret 2025,75000000,,Confirmed,hc englet proses signing di klien
-14,15,CONSULTING,PT Kereta Api Indonesia (Persero) Tbk,ICOFR,4150000000,ref: mba yuli,Confirmed,sedang proses drafting TOR
-15,16,KPPK,PT Liebherr Indonesia Perkasa,KPPK 31 Des 2024,24000000,,Confirmed,draf englet proses review klien
-16,17,KPPK,PT Chitra Paratama,KPPK 31 Des 2024,16500000,,Confirmed,draf englet proses review klien
-17,18,KPPK,PT JGC Indonesia,KPPK 31 Des 2024,14300000,,Confirmed,draf englet proses review klien
-18,19,AUDIT,Komunika Jaya Nusantara,Audit 31 Des 2022 dan 2023,90000000,,Confirmed,draf englet proses review klien
-19,20,KPPK,PT Medco Power Indonesia,KPPK 31 Des 2024,17500000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-20,21,KPPK,PT Medco Ratch Power Riau,KPPK 31 Des 2024,17500000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-21,22,KPPK,PT Medco Energy Internasional,KPPK 31 Des 2024,17500000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-22,23,KPPK,PT Medco EP Tomori Sulawesi,KPPK 31 Des 2024,17500000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-23,24,KPPK,PT Medco EP Malaka,KPPK 31 Des 2024,17500000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-24,25,KPPK,Agro Hope,KPPK 31 Des 2024,120000000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-25,26,KPPK,PT Chandra Sakti Utama Leasing,KPPK 31 Des 2024,16500000,,Confirmed,draf englet akan dikirimkan max 3 mar 2025
-26,27,SOP,PT Indonesia Infrastruktur Finance,Review kebijakan dan SOP accounting dan tax,250000000,Rini Gunawan,To be Confirmed,akan di follow up kembali
-27,28,TCSA,PT Indonesia Infrastruktur Finance,Implementasi Aplikasi PSAK 71,0,alvin,Pending di Klien,"proposal sedang diproses oleh PRI. Info dari pak alfin 6 sep bahwa pengadaan ini masih proses approval budgeting, maka pengadaannya akan dilakukan tahun depan "
-28,29,AUDIT,PT Sukadana Sawit Plantation (grup OSO),Audit 31 Des 2023,0,pak edi,Pending di Klien,"info dari pak edi 18 okt, laporan keuangan yang disusun oleh manajemen ada kesalahan sehingga harus di lakukan perbaikan"
-29,30,DUE DILIGENCE,PT Inalum ,"Due Diligence (kajian bisnis, FTDD project kawasan KIKT)",0,pak aulia usman,To be Confirmed,"info dari pak aulia, 27 Sep : beberapa kewajiban yg musti harus diselesaikan baik dr Inalum dan Pelindo sebelum pelaksanaan uji tuntas dilakukan"
-30,31,CONSULTING,OJK,ICOFR,3750000000,,Target Fokus,"update pak sandro 26 Feb 2025, saat ini masih menunggu arahan lebih lanjut dari pimpinan terkait jadwal pengadaannya "
-31,32,SOP,PT Dahana,SOP finance accounting,0,ref: mba yuli,To be Confirmed,saat ini menunggu arahan lebih lanjut dari pimpinan
-32,33,SOP,PT Kereta Api Indonesia (Persero) Tbk,SOP finance accounting,0,ref: mba yuli,Pending di Klien,saat ini sedang proses diskusi internal di klien
-33,34,DUE DILIGENCE,PT Hexa,due diligence (mataram project),600000000,ref: pak gede,Pending di Klien,"info dari pak gede 26 Nov, masih blm ada update dari klien. proposal akan disampaikan 21 Okt 2024. PRI: 450jt, Ref Fee pak nanang: sisanya"
-34,35,ICOFR,PT Pupuk Indonesia (Persero),ICOFR (seluruh siklus kecuali pendapatan),0,ref: mba yuli,Target Fokus,pengadaan akan dilakukan pada bulan Maret 2025
-35,36,DUE DILIGENCE,BPD Syariah,Due Diligence,400000000,ref: pak irdham,Pending di Klien,"sudah disampaikan biaya jasa, saat ini sedang proses diskusi internal di klien. fee PRI: 200jt, ref fee pak irdham: sisanya"
-36,37,CONSULTING,MDB,AUP (Special audit untuk persediaan),0,Ref: pak wildy ,To be Confirmed,
-37,38,AUDIT,PT Bank Sulselbar,audit laporan keuangan 30 Juni 2024 dan 31 des 2024,0,,Pending di Klien,deadline penyampaian dokumen pengadaan 30 Des 2024
-38,39,CONSULTING,PT Pelni,ICOFR (tahap 1),898018018,ref: pak oni,Target Fokus,proses pengadaan akan dilakukan pada bulan maret 2025
-39,40,CONSULTING,PT Pelni,ICOFR (tahap 2),721981982,ref: pak oni,Target Fokus,proses pengadaan akan dilakukan pada bulan maret 2025
-40,41,CONSULTING,PT Pelni,ICOFR (tahap 3),810000000,ref: pak oni,Target Fokus,
-41,42,CONSULTING,PT Pelni,ICOFR (tahap 4),270000000,ref: pak oni,Target Fokus,
-42,43,CONSULTING,PT Patrajasa,pendampingan penerbitan obligasi,300000000,,Pending di Klien,"pendampingan pnerbitan obligasi PT Patra Jasa
+,No,Jenis Pekerjaan,Nama Calon Klien,Detail Pekerjaan,Fee,PIC,Status,Status Level,Notes
+0,1,DUE DILIGENCE,PT ABM Investama Tbk,FTDD diamond project,220000000,,Not confirmed,Confirm,"info dari pak hans, saat ini tim nya masih fokus terhadap proses year end audit"
+1,2,AUDIT,PT Globalization Partners Indonesia,Audit 31 Desember 2024,35000000,,Confirmed,Confirm,hc englet proses signing di klien
+2,3,AUDIT,PT Sany Heavy Industry Indonesia,Audit 31 Des 2023,100000000,,Confirmed,Confirm,hc englet proses signing di klien
+3,4,AUDIT,PT Sany Indonesia Heavy Equipment,Audit 31 Des 2024,75000000,,Confirmed,Confirm,hc englet proses signing di klien
+4,5,AUDIT,PT Sany Indonesia Machinery,Audit 31 Des 2024,175000000,,Confirmed,Confirm,hc englet proses signing di klien
+5,6,AUDIT,PT Sany Indonesia Mining Equipment,Audit 31 Des 2024,75000000,,Confirmed,Confirm,hc englet proses signing di klien
+6,7,KPPK,PT Agri Hikay,KPPK 31 Des 2024,12500000,,Confirmed,Confirm,hc englet proses signing di klien
+7,8,KPPK,PT Agri Indomas,KPPK 31 Des 2024,12500000,,Confirmed,Confirm,hc englet proses signing di klien
+8,9,KPPK,PT Petro Andalan Nusantara,KPPK 31 Des 2024,12500000,,Confirmed,Confirm,hc englet proses signing di klien
+9,10,KPPK,PT Sentana Adidaya,KPPK 31 Des 2024,12500000,,Confirmed,Confirm,hc englet proses signing di klien
+10,11,IFRS,Undip,PSAK 71 dan 73,150000000,,Confirmed,Confirm,sedang proses drafting englet di klien
+11,12,AUDIT,PT Aria Hijau Alamlestari,Audit 31 Des 2024,82250000,,Confirmed,Confirm,hc englet proses signing di klien
+12,13,IFRS,PT Dayamitra Telekomunikasi,Pendampingan implementasi PSAK 71 2025,120000000,,Confirmed,Confirm,tim internal mitratel sedang proses persiapan dokumen2 utk ke pengadaan
+13,14,IFRS,PT Hexindo Adiperkasa,Implementasi PSAK 71 31 Maret 2025,75000000,,Confirmed,Confirm,hc englet proses signing di klien
+14,15,CONSULTING,PT Kereta Api Indonesia (Persero) Tbk,ICOFR,4150000000,ref: mba yuli,Confirmed,Confirm,sedang proses drafting TOR
+15,16,KPPK,PT Liebherr Indonesia Perkasa,KPPK 31 Des 2024,24000000,,Confirmed,Confirm,draf englet proses review klien
+16,17,KPPK,PT Chitra Paratama,KPPK 31 Des 2024,16500000,,Confirmed,Confirm,draf englet proses review klien
+17,18,KPPK,PT JGC Indonesia,KPPK 31 Des 2024,14300000,,Confirmed,Confirm,draf englet proses review klien
+18,19,AUDIT,Komunika Jaya Nusantara,Audit 31 Des 2022 dan 2023,90000000,,Confirmed,Confirm,draf englet proses review klien
+19,20,KPPK,PT Medco Power Indonesia,KPPK 31 Des 2024,17500000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+20,21,KPPK,PT Medco Ratch Power Riau,KPPK 31 Des 2024,17500000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+21,22,KPPK,PT Medco Energy Internasional,KPPK 31 Des 2024,17500000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+22,23,KPPK,PT Medco EP Tomori Sulawesi,KPPK 31 Des 2024,17500000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+23,24,KPPK,PT Medco EP Malaka,KPPK 31 Des 2024,17500000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+24,25,KPPK,Agro Hope,KPPK 31 Des 2024,120000000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+25,26,KPPK,PT Chandra Sakti Utama Leasing,KPPK 31 Des 2024,16500000,,Confirmed,Confirm,draf englet akan dikirimkan max 3 mar 2025
+26,27,SOP,PT Indonesia Infrastruktur Finance,Review kebijakan dan SOP accounting dan tax,250000000,Rini Gunawan,To be Confirmed,Opportunity,akan di follow up kembali
+27,28,TCSA,PT Indonesia Infrastruktur Finance,Implementasi Aplikasi PSAK 71,0,alvin,Pending di Klien,Opportunity,"proposal sedang diproses oleh PRI. Info dari pak alfin 6 sep bahwa pengadaan ini masih proses approval budgeting, maka pengadaannya akan dilakukan tahun depan "
+28,29,AUDIT,PT Sukadana Sawit Plantation (grup OSO),Audit 31 Des 2023,0,pak edi,Pending di Klien,Opportunity,"info dari pak edi 18 okt, laporan keuangan yang disusun oleh manajemen ada kesalahan sehingga harus di lakukan perbaikan"
+29,30,DUE DILIGENCE,PT Inalum ,"Due Diligence (kajian bisnis, FTDD project kawasan KIKT)",0,pak aulia usman,To be Confirmed,Opportunity,"info dari pak aulia, 27 Sep : beberapa kewajiban yg musti harus diselesaikan baik dr Inalum dan Pelindo sebelum pelaksanaan uji tuntas dilakukan"
+30,31,CONSULTING,OJK,ICOFR,3750000000,,Target Fokus,Opportunity,"update pak sandro 26 Feb 2025, saat ini masih menunggu arahan lebih lanjut dari pimpinan terkait jadwal pengadaannya "
+31,32,SOP,PT Dahana,SOP finance accounting,0,ref: mba yuli,To be Confirmed,Opportunity,saat ini menunggu arahan lebih lanjut dari pimpinan
+32,33,SOP,PT Kereta Api Indonesia (Persero) Tbk,SOP finance accounting,0,ref: mba yuli,Pending di Klien,Opportunity,saat ini sedang proses diskusi internal di klien
+33,34,DUE DILIGENCE,PT Hexa,due diligence (mataram project),600000000,ref: pak gede,Pending di Klien,Opportunity,"info dari pak gede 26 Nov, masih blm ada update dari klien. proposal akan disampaikan 21 Okt 2024. PRI: 450jt, Ref Fee pak nanang: sisanya"
+34,35,ICOFR,PT Pupuk Indonesia (Persero),ICOFR (seluruh siklus kecuali pendapatan),0,ref: mba yuli,Target Fokus,Opportunity,pengadaan akan dilakukan pada bulan Maret 2025
+35,36,DUE DILIGENCE,BPD Syariah,Due Diligence,400000000,ref: pak irdham,Pending di Klien,Opportunity,"sudah disampaikan biaya jasa, saat ini sedang proses diskusi internal di klien. fee PRI: 200jt, ref fee pak irdham: sisanya"
+36,37,CONSULTING,MDB,AUP (Special audit untuk persediaan),0,Ref: pak wildy ,To be Confirmed,Opportunity,
+37,38,AUDIT,PT Bank Sulselbar,audit laporan keuangan 30 Juni 2024 dan 31 des 2024,0,,Pending di Klien,Opportunity,deadline penyampaian dokumen pengadaan 30 Des 2024
+38,39,CONSULTING,PT Pelni,ICOFR (tahap 1),898018018,ref: pak oni,Target Fokus,Opportunity,proses pengadaan akan dilakukan pada bulan maret 2025
+39,40,CONSULTING,PT Pelni,ICOFR (tahap 2),721981982,ref: pak oni,Target Fokus,Opportunity,proses pengadaan akan dilakukan pada bulan maret 2025
+40,41,CONSULTING,PT Pelni,ICOFR (tahap 3),810000000,ref: pak oni,Target Fokus,Opportunity,
+41,42,CONSULTING,PT Pelni,ICOFR (tahap 4),270000000,ref: pak oni,Target Fokus,Opportunity,
+42,43,CONSULTING,PT Patrajasa,pendampingan penerbitan obligasi,300000000,,Pending di Klien,Opportunity,"pendampingan pnerbitan obligasi PT Patra Jasa
 Rencana penebitan Obligasi menggunakan buku 31 Desember 2024. Nilai nominal obligasi Rp600 miliar dengan tenor 3-5 tahun
 menggunakan angka Des 24 target lisitng utk penawaran Juni 2025
 Rating AA+/-
 Underwriternay BRI dan Mansec
 50% saat first registration. 50% pada saat pernyatan efektif 2"
-43,44,AUDIT,PT Borneo Alumina Indonesia,audit laporan keuangan 31 des 2024,0,,To be Confirmed,
-44,45,CONSULTING,PT Angkasa Pura Indonesia,"Laporan Monitoring Cash Flow Triwulan I, Triwulan II dan Triwulan III tahun 2024 Angkasa Pura Indonesia",0,,Pending di Klien,"info dari pak arief, saat ini prosesnya sedang usulkan ke lenders untuk persetujuannya, PRI ada chance 50%"
-45,46,AUDIT,BPD Bali,Audit laporan keuangan,0,achmad taufik,Pending di Klien,sudah dilakukan sharing session pada tanggal 23 Des
-46,47,CONSULTING,PT Garuda Inonesia (Persero) Tbk,ICOFR,0,,Target Fokus,
-47,48,CONSULTING,PT Adhi Karya (Persero) Tbk,ICOFR,0,bu bonita/ dyah,Target Fokus,"saat ini masih fokus dengan agenda lain, kemungkinan pengadaan akan dimulai awal maret 2025"
-48,49,DUE DILIGENCE,Bank BJB,Due diligence pembentukan KUB dgn bank maluku malut,0,,Pending di Klien,masih dalam proses diskusi diinternal klien
-49,50,CONSULTING,PAM Group Tbk,advisor untuk pre IPO ,0,ref: pak adji (ex advisor),Pending di Klien,akan dilakukan arrangment jadwal scoping
-50,51,CONSULTING,PT PLN ICON Plus,ICOFR,2300000000,Fajar,Target Fokus,"Scope: mulai dari awal set up BPM,RCM sampai go live ICOFR, secara keseluruhan mencakup ELC, PLC, ITGC"
-51,52,CONSULTING,PT Terminal Curah Utama (grup pelindo),Kajian Bisnis,0,,Proses Penyusunan Proposal,saat ini sedang proses diskusi oleh serli dan pak hadi
-52,53,AUDIT,PT Advantis Mitra Logistic Company,Audit 31 Des 2024,0,ref: pak christo,To be Confirmed,klien masih proses pengisian questionaire 
-53,54,,PT Trakindo,asesmen kontrak panjang,0,,Pending di Klien,masih menunggu list kontrak dari mas revan
-54,55,AUDIT,PT Pupuk Indonesia Pangan,Audit 31 Des 2024,115000000,pak deni,Pending di Klien,proposal sudah disampaikan 31 jan saat ini sedang proses pengadaan
-55,56,CONSULTING,PT PLN Indonesia Power,SPA 3000,95000000,,To be Confirmed,"proposal sudah disampaikan, saat ini masih dalam proses evaluasi internal"
-56,57,AUDIT,PT Wana Kencana ,Audit 31 Des 2024,95000000,,Not confirmed,Not confirmed
-57,58,AUDIT,OSO Grup (hotel dan anak perusahaannya),audit konsolidasian 31 des 2024,225000000,Pak Chairul Umaiya - Finance Director,To be Confirmed,1 induk dormant dan 2 entitas anak. Harga jasa sudah disampaikan oleh pak ade ke klien
-58,59,AUP,PT Danareksa Capital,AUP,240000000,,Pending di Klien,saat ini sedang proses diskusi internal di klien
-59,60,SOP,PT Trakindo,SOP treasury,0,,To be Confirmed,sedang proses diskusi antara mba yuli dengan klien
-60,61,DUE DILIGENCE,PT Bank DKI,kajian kelayakan pembukaan cabang baru,0,,Proses Penyusunan Proposal,
-61,62,TAX,Telkomsel Ventures,tax assisstance,0,ref: elin,To be Confirmed,akan dilakukan scoping meeting hari senin 17 Feb 2025
-62,63,CONSULTING,PT LEN Industri,ICOFR ,0,Nur Azizah,Target Fokus,
-63,64,CONSULTING,PT Biro Klasifikasi Indonesia,ICOFR ,0,Abdul Rifani,Target Fokus,"info 14 feb, saat ini BKI sedang menyusun pedomannya untuk kemudian saat implementasi akan engaged PRI. Preliminary discussion akan dimulai bulan maret, karena saat ini masih fokus menyelesaikan year end audit"
-64,65,CONSULTING,PT Sigma Utama,Audit Forensik,0,Lilik,Proses Penyusunan Proposal,klien akan diskusi telebih dahulu dengan auditor terkait kebutuhannya
-65,66,CONSULTING,Blora Pte. Ltd,Position paper perpajakan,0,,Pending di Klien,akan diskusi internal terkait dengan kebutuhannya
-66,67,AUDIT,PT Perusahaan Syariah Keluarga,Due diligence ,0,,Pending di Klien,masih dalam tahap review proposal di klien
-67,68,CONSULTING,PT Telekomunikasi Indonesia,Disposal Aset,0,Anggi Warliman,Proses Penyusunan Proposal,timeline: 1 Mei - 15 Jul 2025
-68,69,CONSULTING,Perum Peruri,ICOFR,0,Dien manrisk,Pending di Klien,proses pengadaan tender akan dilakukan bulan april 2025
-69,70,CONSULTING,PT ASDP,ICOFR dan improvement business process,0,Fevi Quality Management,Pending di Klien,masih dalam diskusi internal di klien
-70,71,ACCOUNTING SERVICE,PT Pegadaian,ICOFR,0,zaenuddin,Target Fokus,meeting dengan klien di tanggal 14 mei
-71,72,Consulting,PT Semen Indonesia,amandemen SOD,0,teguh (SIG),Pending di Klien,manajemen masih pembahasan terkait dengan RKAP
+43,44,AUDIT,PT Borneo Alumina Indonesia,audit laporan keuangan 31 des 2024,0,,To be Confirmed,Opportunity,
+44,45,CONSULTING,PT Angkasa Pura Indonesia,"Laporan Monitoring Cash Flow Triwulan I, Triwulan II dan Triwulan III tahun 2024 Angkasa Pura Indonesia",0,,Pending di Klien,Opportunity,"info dari pak arief, saat ini prosesnya sedang usulkan ke lenders untuk persetujuannya, PRI ada chance 50%"
+45,46,AUDIT,BPD Bali,Audit laporan keuangan,0,achmad taufik,Pending di Klien,Opportunity,sudah dilakukan sharing session pada tanggal 23 Des
+46,47,CONSULTING,PT Garuda Inonesia (Persero) Tbk,ICOFR,0,,Target Fokus,Opportunity,
+47,48,CONSULTING,PT Adhi Karya (Persero) Tbk,ICOFR,0,bu bonita/ dyah,Target Fokus,Opportunity,"saat ini masih fokus dengan agenda lain, kemungkinan pengadaan akan dimulai awal maret 2025"
+48,49,DUE DILIGENCE,Bank BJB,Due diligence pembentukan KUB dgn bank maluku malut,0,,Pending di Klien,Opportunity,masih dalam proses diskusi diinternal klien
+49,50,CONSULTING,PAM Group Tbk,advisor untuk pre IPO ,0,ref: pak adji (ex advisor),Pending di Klien,Opportunity,akan dilakukan arrangment jadwal scoping
+50,51,CONSULTING,PT PLN ICON Plus,ICOFR,2300000000,Fajar,Target Fokus,Opportunity,"Scope: mulai dari awal set up BPM,RCM sampai go live ICOFR, secara keseluruhan mencakup ELC, PLC, ITGC"
+51,52,CONSULTING,PT Terminal Curah Utama (grup pelindo),Kajian Bisnis,0,,Proses Penyusunan Proposal,Opportunity,saat ini sedang proses diskusi oleh serli dan pak hadi
+52,53,AUDIT,PT Advantis Mitra Logistic Company,Audit 31 Des 2024,0,ref: pak christo,To be Confirmed,Opportunity,klien masih proses pengisian questionaire 
+53,54,,PT Trakindo,asesmen kontrak panjang,0,,Pending di Klien,Opportunity,masih menunggu list kontrak dari mas revan
+54,55,AUDIT,PT Pupuk Indonesia Pangan,Audit 31 Des 2024,115000000,pak deni,Pending di Klien,Opportunity,proposal sudah disampaikan 31 jan saat ini sedang proses pengadaan
+55,56,CONSULTING,PT PLN Indonesia Power,SPA 3000,95000000,,To be Confirmed,Opportunity,"proposal sudah disampaikan, saat ini masih dalam proses evaluasi internal"
+56,57,AUDIT,PT Wana Kencana ,Audit 31 Des 2024,95000000,,Not confirmed,Opportunity,
+57,58,AUDIT,OSO Grup (hotel dan anak perusahaannya),audit konsolidasian 31 des 2024,225000000,Pak Chairul Umaiya - Finance Director,To be Confirmed,Opportunity,1 induk dormant dan 2 entitas anak. Harga jasa sudah disampaikan oleh pak ade ke klien
+58,59,AUP,PT Danareksa Capital,AUP,240000000,,Pending di Klien,Opportunity,saat ini sedang proses diskusi internal di klien
+59,60,SOP,PT Trakindo,SOP treasury,0,,To be Confirmed,Opportunity,sedang proses diskusi antara mba yuli dengan klien
+60,61,DUE DILIGENCE,PT Bank DKI,kajian kelayakan pembukaan cabang baru,0,,Proses Penyusunan Proposal,Opportunity,
+61,62,TAX,Telkomsel Ventures,tax assisstance,0,ref: elin,To be Confirmed,Opportunity,akan dilakukan scoping meeting hari senin 17 Feb 2025
+62,63,CONSULTING,PT LEN Industri,ICOFR ,0,Nur Azizah,Target Fokus,Opportunity,
+63,64,CONSULTING,PT Biro Klasifikasi Indonesia,ICOFR ,0,Abdul Rifani,Target Fokus,Opportunity,"info 14 feb, saat ini BKI sedang menyusun pedomannya untuk kemudian saat implementasi akan engaged PRI. Preliminary discussion akan dimulai bulan maret, karena saat ini masih fokus menyelesaikan year end audit"
+64,65,CONSULTING,PT Sigma Utama,Audit Forensik,0,Lilik,Proses Penyusunan Proposal,Opportunity,klien akan diskusi telebih dahulu dengan auditor terkait kebutuhannya
+65,66,CONSULTING,Blora Pte. Ltd,Position paper perpajakan,0,,Pending di Klien,Opportunity,akan diskusi internal terkait dengan kebutuhannya
+66,67,AUDIT,PT Perusahaan Syariah Keluarga,Due diligence ,0,,Pending di Klien,Opportunity,masih dalam tahap review proposal di klien
+67,68,CONSULTING,PT Telekomunikasi Indonesia,Disposal Aset,0,Anggi Warliman,Proses Penyusunan Proposal,Opportunity,timeline: 1 Mei - 15 Jul 2025
+68,69,CONSULTING,Perum Peruri,ICOFR,0,Dien manrisk,Pending di Klien,Opportunity,proses pengadaan tender akan dilakukan bulan april 2025
+69,70,CONSULTING,PT ASDP,ICOFR dan improvement business process,0,Fevi Quality Management,Pending di Klien,Opportunity,masih dalam diskusi internal di klien
+70,71,ACCOUNTING SERVICE,PT Pegadaian,ICOFR,0,zaenuddin,Target Fokus,Weak,meeting dengan klien di tanggal 14 mei
+71,72,Consulting,PT Semen Indonesia,amandemen SOD,0,teguh (SIG),Pending di Klien,Weak,manajemen masih pembahasan terkait dengan RKAP
 72,73,AUP,PT Semen Indonesia,"push promo -
-analisa akun GCG dan penerapan pembayaran kepada 58 distributor terkait audit push promo",760000000,Rizki (SIG),Pending di Klien,sedang proses di pengadaan
-73,74,"SOP, TCSA",PT Humpuss Intermoda Transportasi,business process & ERP,2450000000,,Pending di Klien,"info dari mba yuli 8 sept, bahwa saat ini timnya mba yuli masih fokus kepada PIP sehingga HITS ini masih belum kembali di follow up"
-74,75,AUDIT,PT Bumi Rojo Koyo,Audit 31 Des 2022,0,monica,Pending di Klien,audit akan dilakukan ketika accc telah selesai dikerjakan. Saat ini masih terdapat pending dari klien untuk approval laporan acc service
-75,76,Limited Review,Perusahaan BUMD,Kajian akuntansi dan pajak,300000000,skha,Pending di Klien,proposal telah disampaikan kepada SKHA namun blm ada update lagi terkait dengan progressnya
-76,77,Consulting,PT Borneo Alumina Indonesia,Financial Modelling,0,alexander,Pending di Klien,TOR nya sedang proses review oleh internal klien
-77,78,Consulting,Bank BJB,Proyeksi Keuangan konsolidasian 3 tahun kedepan (2024-2027),80000000,gery,Pending di Klien,manajemen sedang fokus terhadap due dil
-78,79,DUE DILIGENCE,Telkom Sigma,"Amandemen I Due Dil (Sigma) - sd 2024 PT A, B, C",0,naufan (skha),Pending di Klien,akan diusahakan dulu utk selesai di akhir tahun
-79,80,CONSULTING,PT Adhi Persada Properti,ref dari mba yuli,0,,Pending di Klien,menunggu arahan dari mba yuli
-80,81,Consulting,PT Semen Padang,Pembuatan policy aset tagging,0,ref mba yuli,Pending di Klien,"saat ini prosesnya masih berjalan, karena ada restrukturisasi GM, sehingga menunggu arahan lebih lanjut dari GM yang baru. pra-proposal sudah dipaparkan kepada direksi sampai dengan level GM. estimasi akan mulai di bulan mei 2024."
-81,82,Consulting,PT Semen Tonasa,Pembuatan policy aset tagging,0,ref mba yuli,Pending di Klien,pra-proposal sudah dipaparkan kepada direksi sampai dengan level GM. estimasi akan mulai di bulan mei 2024
-82,83,DUE DILIGENCE,PT Pelindo Solusi Logistik,akuisisi saham BJTI dari SPTP,125000000,arif PIL,Pending di Klien,saat ini masih menunggu hasil evaluasi dari manajemen
-83,84,AUDIT,PT Kerthi,Audit 31 des 2021-2022,0,,Pending di Klien,
-84,85,Limited Review,PT Humpuss Intermoda Tbk,AUP (utk keperluan KJPP),0,,Pending di Klien,prosedur akan disampaikan ke kllien 5 feb 2024
-85,86,Consulting,Perusahaan BUMN,Risk Majority asesmen,0,,Target Fokus,pak ade sedang diskusi dengan orng BUMN
-86,87,AUDIT,Bank Pembangunan Daerah,Audit,0,,Target Fokus,
-87,88,CONSULTING,perusahaan investasi,Kajian bisnis di perusahaan investasi,0,ref: pak reza,Pending di Klien,
-88,89,Consulting,Bank BJB,Risk Majurity Index,0,,Target Fokus,saat ini sedang persiapan penyusunan discussion paper
-89,90,CONSULTING,PT Semen Padang,ICOFR,0,ref mba yuli,Pending di Klien,"info dari mba yuli 29 Jan 2024, RKAP telah disetujui oleh manajemen"
-90,91,AUDIT,PT Permata Husada Sakti,Audit 31 Des 2022 dan 2023,0,lilis,Pending di Klien,klien belum menyampaikan LK in house
-91,92,AUDIT,PT Citra International Underwriter,Audit 31 Des 2024,150000000,nur - visual,Pending di Klien,"info dari pak nur pada 19 juli, blm ada keputusan dari manajemen"
-92,93,CONSULTING,ITDC,SPA 3000,0,tidak ada respon lagi dari klien,To be Confirmed,
-93,94,CONSULTING,PT PLN Indonesia Power,Amandemen posper,162500000,tidak ada respon lagi dari klien,Pending di Klien,"hasil dari diskusi dengan klien pada tgl 26 Nov, konfirmasi dari klien bahwa saat ini masih menunggu penyelesaian TOR"
-94,95,CONSULTING,PT Taspen,ICOFR,0,"info dari Bu Merry, proses pengadaan sudah dilakukan",Target Fokus,
+analisa akun GCG dan penerapan pembayaran kepada 58 distributor terkait audit push promo",760000000,Rizki (SIG),Pending di Klien,Weak,sedang proses di pengadaan
+73,74,"SOP, TCSA",PT Humpuss Intermoda Transportasi,business process & ERP,2450000000,,Pending di Klien,Weak,"info dari mba yuli 8 sept, bahwa saat ini timnya mba yuli masih fokus kepada PIP sehingga HITS ini masih belum kembali di follow up"
+74,75,AUDIT,PT Bumi Rojo Koyo,Audit 31 Des 2022,0,monica,Pending di Klien,Weak,audit akan dilakukan ketika accc telah selesai dikerjakan. Saat ini masih terdapat pending dari klien untuk approval laporan acc service
+75,76,Limited Review,Perusahaan BUMD,Kajian akuntansi dan pajak,300000000,skha,Pending di Klien,Weak,proposal telah disampaikan kepada SKHA namun blm ada update lagi terkait dengan progressnya
+76,77,Consulting,PT Borneo Alumina Indonesia,Financial Modelling,0,alexander,Pending di Klien,Weak,TOR nya sedang proses review oleh internal klien
+77,78,Consulting,Bank BJB,Proyeksi Keuangan konsolidasian 3 tahun kedepan (2024-2027),80000000,gery,Pending di Klien,Weak,manajemen sedang fokus terhadap due dil
+78,79,DUE DILIGENCE,Telkom Sigma,"Amandemen I Due Dil (Sigma) - sd 2024 PT A, B, C",0,naufan (skha),Pending di Klien,Weak,akan diusahakan dulu utk selesai di akhir tahun
+79,80,CONSULTING,PT Adhi Persada Properti,ref dari mba yuli,0,,Pending di Klien,Weak,menunggu arahan dari mba yuli
+80,81,Consulting,PT Semen Padang,Pembuatan policy aset tagging,0,ref mba yuli,Pending di Klien,Weak,"saat ini prosesnya masih berjalan, karena ada restrukturisasi GM, sehingga menunggu arahan lebih lanjut dari GM yang baru. pra-proposal sudah dipaparkan kepada direksi sampai dengan level GM. estimasi akan mulai di bulan mei 2024."
+81,82,Consulting,PT Semen Tonasa,Pembuatan policy aset tagging,0,ref mba yuli,Pending di Klien,Weak,pra-proposal sudah dipaparkan kepada direksi sampai dengan level GM. estimasi akan mulai di bulan mei 2024
+82,83,DUE DILIGENCE,PT Pelindo Solusi Logistik,akuisisi saham BJTI dari SPTP,125000000,arif PIL,Pending di Klien,Weak,saat ini masih menunggu hasil evaluasi dari manajemen
+83,84,AUDIT,PT Kerthi,Audit 31 des 2021-2022,0,,Pending di Klien,Weak,
+84,85,Limited Review,PT Humpuss Intermoda Tbk,AUP (utk keperluan KJPP),0,,Pending di Klien,Weak,prosedur akan disampaikan ke kllien 5 feb 2024
+85,86,Consulting,Perusahaan BUMN,Risk Majority asesmen,0,,Target Fokus,Weak,pak ade sedang diskusi dengan orng BUMN
+86,87,AUDIT,Bank Pembangunan Daerah,Audit,0,,Target Fokus,Weak,
+87,88,CONSULTING,perusahaan investasi,Kajian bisnis di perusahaan investasi,0,ref: pak reza,Pending di Klien,Weak,
+88,89,Consulting,Bank BJB,Risk Majurity Index,0,,Target Fokus,Weak,saat ini sedang persiapan penyusunan discussion paper
+89,90,CONSULTING,PT Semen Padang,ICOFR,0,ref mba yuli,Pending di Klien,Weak,"info dari mba yuli 29 Jan 2024, RKAP telah disetujui oleh manajemen"
+90,91,AUDIT,PT Permata Husada Sakti,Audit 31 Des 2022 dan 2023,0,lilis,Pending di Klien,Weak,klien belum menyampaikan LK in house
+91,92,AUDIT,PT Citra International Underwriter,Audit 31 Des 2024,150000000,nur - visual,Pending di Klien,Weak,"info dari pak nur pada 19 juli, blm ada keputusan dari manajemen"
+92,93,CONSULTING,ITDC,SPA 3000,0,tidak ada respon lagi dari klien,To be Confirmed,Weak,
+93,94,CONSULTING,PT PLN Indonesia Power,Amandemen posper,162500000,tidak ada respon lagi dari klien,Pending di Klien,Weak,"hasil dari diskusi dengan klien pada tgl 26 Nov, konfirmasi dari klien bahwa saat ini masih menunggu penyelesaian TOR"
+94,95,CONSULTING,PT Taspen,ICOFR,0,"info dari Bu Merry, proses pengadaan sudah dilakukan",Target Fokus,Weak,
 95,96,CONSULTING,Perum Perumnas,Pendampingan pengembangan risk modelling,250000000,"pak latief
-ref: pak adhit",Pending di Klien,penawaran sudah disampaikan kepada klien
-96,97,AUDIT,Batumbu,Audit 31 Des 2024,0,ref: pak taufik atau pak,Pending di Klien,menunggu dokumen summary SOP ver 1.0 dari klien untuk kemudian dilakukan asesmen oleh pak taufik dan tim
+ref: pak adhit",Pending di Klien,Weak,penawaran sudah disampaikan kepada klien
+96,97,AUDIT,Batumbu,Audit 31 Des 2024,0,ref: pak taufik atau pak,Pending di Klien,Weak,menunggu dokumen summary SOP ver 1.0 dari klien untuk kemudian dilakukan asesmen oleh pak taufik dan tim
