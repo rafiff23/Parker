@@ -106,7 +106,7 @@ st.title("HR Schedule")
 st.write("### Add New Data")
 
 df = get_data()
-df['created'] = pd.to_datetime("created")
+df['created'] = pd.to_datetime(df['created'])
 df['month'] = df['created'].dt.strftime('%B')
 
 def categorize_week(date):
