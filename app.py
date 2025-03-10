@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import asyncio
+# import asyncio
 from sqlalchemy import create_engine, text
+from annotated_text import annotated_text
 
 DB_URL = "postgresql://neondb_owner:npg_cq2K3jhIQBEN@ep-nameless-salad-a5yrvfdl-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
 engine = create_engine(DB_URL)
@@ -44,19 +45,19 @@ def preprocess_data(df):
     return df_pivot.sort_values(by=['employee_name', 'month'])
 
 # Load employees
-@st.cache_data
-def get_employees():
-    with engine.connect() as conn:
-        query = text("""
-        SELECT ho.employee_id, ho.employee_name, hj.position_name
-        FROM hr_employee AS ho
-        JOIN hr_position_assignment AS h ON h.employee_id = ho.employee_id
-        JOIN hr_job_position AS hj ON h.position_id = hj.position_id
-        ORDER BY ho.employee_name;
-        """)
-        result = conn.execute(query)
-        df = pd.DataFrame(result.fetchall(), columns=result.keys())
-    return df
+# @st.cache_data
+# def get_employees():
+#     with engine.connect() as conn:
+#         query = text("""
+#         SELECT ho.employee_id, ho.employee_name, hj.position_name
+#         FROM hr_employee AS ho
+#         JOIN hr_position_assignment AS h ON h.employee_id = ho.employee_id
+#         JOIN hr_job_position AS hj ON h.position_id = hj.position_id
+#         ORDER BY ho.employee_name;
+#         """)
+#         result = conn.execute(query)
+#         df = pd.DataFrame(result.fetchall(), columns=result.keys())
+#     return df
 
 # Insert new employee data
 def insert_data(df):
@@ -87,7 +88,7 @@ def get_inserted_data():
         df = pd.DataFrame(result.fetchall(), columns=result.keys())
     return df
 
-employees_df = get_employees()
+employees_df = get_data()
 
 with st.expander("Add New Data"):
     col1, col2 = st.columns([1, 1])
@@ -95,28 +96,34 @@ with st.expander("Add New Data"):
     with col1:
         selected_employees = st.multiselect(  
             "Select Employees",
-            employees_df["employee_name"].unique()
+            employees_df['employee_name'].sort_values().unique()
         )
 
     created_date = st.date_input("Select Created Date")
-    client_name = st.text_input("Enter Client Name")
+    client_names = st.multiselect(
+        "Select Client(s)",
+        employees_df['client_name'].sort_values().unique()
+    )
 
     if st.button("Commit"):
         if not selected_employees:
             st.warning("Please select at least one employee.")
+        elif not client_names:
+            st.warning("Please select at least one client.")
         else:
             new_entries = []
             for employee in selected_employees:
                 position_name = employees_df.loc[employees_df["employee_name"] == employee, "position_name"].values[0]
                 employee_id = employees_df.loc[employees_df["employee_name"] == employee, "employee_id"].values[0]
-
-                new_entries.append({
-                    "employee_id": employee_id,
-                    "employee_name": employee,
-                    "position_name": position_name,
-                    "created": created_date,
-                    "client_name": client_name
-                })
+                
+                for client in client_names:
+                    new_entries.append({
+                        "employee_id": employee_id,
+                        "employee_name": employee,
+                        "position_name": position_name,
+                        "created": created_date,
+                        "client_name": client
+                    })
 
             # Convert list to DataFrame and insert
             new_entries_df = pd.DataFrame(new_entries)
@@ -253,3 +260,32 @@ with st.expander("Alternatif"):
         <hr>
         """
         st.markdown(html_text, unsafe_allow_html=True)
+
+
+
+with st.expander("Alternatif (Annotated Text Version)"):
+    df_all = pd.concat([df1_melted, df2_melted], ignore_index=True)
+    df_all = df_all[df_all['client_name'] != "-"]
+
+    def style_clients(row):
+        if row['source'] == 'new':
+            return (row['client_name'], "NEW", "#1E90FF")  # Blue for new
+        else:
+            return (row['client_name'], "EXISTING", "#FF4500")  # Red for existing
+
+    df_all['styled_job'] = df_all.apply(style_clients, axis=1)
+
+    # Group into a list of annotated elements
+    grouped = df_all.groupby(['employee_name', 'position_name', 'month'])
+    st.write("📊 **Grouped Job Assignments with Colored Labels (Annotated Text)**")
+
+    for (employee, position, month), group in grouped:
+        st.markdown(f"**👤 Employee:** {employee}  \n**💼 Position:** {position}  \n**📅 Month:** {month}")
+        
+        for week in ['Week 1', 'Week 2', 'Week 3', 'Week 4']:
+            week_jobs = group[group['Week'] == week]['styled_job'].tolist()
+            if week_jobs:
+                st.markdown(f"**🗓️ {week}:**")
+                annotated_text(*week_jobs)
+
+        st.markdown("---")
