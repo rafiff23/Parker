@@ -189,5 +189,3 @@ with col6:
                 xaxis_title="Status Level",
             )
             st.plotly_chart(fig, use_container_width=True)
-
-
