@@ -289,3 +289,36 @@ with st.expander("Alternatif (Annotated Text Version)"):
                 annotated_text(*week_jobs)
 
         st.markdown("---")
+
+with st.expander("Alternatif (Annotated Text Version) V2"):
+    df_all = pd.concat([df1_melted, df2_melted], ignore_index=True)
+    df_all = df_all[df_all['client_name'] != "-"]
+
+    def style_clients(row):
+        if row['source'] == 'new':
+            return (row['client_name'], "NEW", "#1E90FF")  # Blue for new
+        else:
+            return (row['client_name'], "EXISTING", "#FF4500")  # Red for existing
+
+    df_all['styled_job'] = df_all.apply(style_clients, axis=1)
+
+    # Group into a list of annotated elements
+    grouped = df_all.groupby(['employee_name', 'position_name', 'month'])
+    st.write("📊 **Grouped Job Assignments with Colored Labels (Annotated Text)**")
+
+    for (employee, position, month), group in grouped:
+        html_text = f"""
+        <b>👤 Employee:</b> {row['employee_name']} &nbsp;&nbsp; 
+        <b>💼 Position:</b> {row['position_name']} &nbsp;&nbsp; 
+        <b>📅 Month:</b> {row['month']} &nbsp;&nbsp; 
+        <b>🗓️ Week:</b> {row['Week']}<br>
+        """
+        st.markdown(html_text, unsafe_allow_html=True)
+        
+        for week in ['Week 1', 'Week 2', 'Week 3', 'Week 4']:
+            week_jobs = group[group['Week'] == week]['styled_job'].tolist()
+            if week_jobs:
+                st.markdown(f"**🗓️ {week}:**")
+                annotated_text(*week_jobs)
+
+        st.markdown("---")
