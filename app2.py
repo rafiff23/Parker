@@ -42,19 +42,19 @@ with st.expander("Add New Data"):
                 st.warning("No valid rows to append. Fill at least two columns.")
 
 
-col1, col2, col3 = st.columns([0.5, 0.5, 0.5])
+col1, col2= st.columns([0.5, 0.5])
 
 count_confirm = df[df['Status Level'].str.lower().isin(['confirm'])].shape[0]
 count_opportunity = df[df['Status Level'].str.lower().isin(['opportunity'])].shape[0]
-count_weak = df[df['Status Level'].str.lower().isin(['weak'])].shape[0]
+# count_weak = df[df['Status Level'].str.lower().isin(['weak'])].shape[0]
 
 total_fee_confirm = df[df['Status Level'].str.lower().isin(['confirm'])]['Fee'].sum()
 total_fee_opportunity = df[df['Status Level'].str.lower().isin(['opportunity'])]['Fee'].sum()
-total_fee_weak = df[df['Status Level'].str.lower().isin(['weak'])]['Fee'].sum()
+# total_fee_weak = df[df['Status Level'].str.lower().isin(['weak'])]['Fee'].sum()
 
 formatted_fee_confirm = f"Rp {total_fee_confirm:,.0f}"
 formatted_fee_opportunity = f"Rp {total_fee_opportunity:,.0f}"
-formatted_fee_weak = f"Rp {total_fee_weak:,.0f}"
+# formatted_fee_weak = f"Rp {total_fee_weak:,.0f}"
 
 st.markdown("""
     <style>
@@ -97,14 +97,14 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
 
-with col3:
-    st.markdown(f"""
-        <div class='metric-container weak-bg'>
-            <div class='metric-title'>Weak</div>
-            <div class='metric-value'>{count_weak}</div>
-            <div class='metric-delta'>{formatted_fee_weak}</div>
-        </div>
-    """, unsafe_allow_html=True)
+# with col3:
+#     st.markdown(f"""
+#         <div class='metric-container weak-bg'>
+#             <div class='metric-title'>Weak</div>
+#             <div class='metric-value'>{count_weak}</div>
+#             <div class='metric-delta'>{formatted_fee_weak}</div>
+#         </div>
+#     """, unsafe_allow_html=True)
 
 
 
@@ -148,44 +148,44 @@ with col2:
             df_status_opportunity = df_opportunity.groupby('Status')['Fee'].sum().reset_index().sort_values(by='Fee', ascending=False)
             st.dataframe(df_status_opportunity.style.format({"Fee": lambda x: f"Rp {x:,.0f}".replace(",", ".")}), use_container_width=True) 
 
-col5, col6 = st.columns([0.5,0.5])
+# col5, col6 = st.columns([0.5,0.5])
 
-with col5:
-    st.subheader("Weak")
-    with st.container(border = True):
-        tab1, tab2 = st.tabs(["Add Data", "Status Level"])
-        with tab1:
-            st.dataframe(df_weak.style.format({"Fee": lambda x: f"Rp {x:,.0f}".replace(",", ".")}), use_container_width=True)  
-        with tab2:
-            df_status_weak = df_weak.groupby('Status')['Fee'].sum().reset_index().sort_values(by='Fee', ascending=False)
-            st.dataframe(df_status_weak.style.format({"Fee": lambda x: f"Rp {x:,.0f}".replace(",", ".")}), use_container_width=True) 
 
-with col6:
-    st.subheader("Distribution of")
-    with st.container(border = True):
-        tab1, tab2 = st.tabs(["Status", "Status Level"])
-        with tab1:
-            df_count = df.groupby("Status Level").size().reset_index(name="Total")
-            df_count["Percentage"] = (df_count["Total"] / df_count["Total"].sum()) * 100
-            df_count["Percentage"] = df_count["Percentage"].round(1)  
+st.subheader("Weak")
+with st.container(border = True):
+    tab1, tab2 = st.tabs(["Add Data", "Status Level"])
+    with tab1:
+        st.dataframe(df_weak.style.format({"Fee": lambda x: f"Rp {x:,.0f}".replace(",", ".")}), use_container_width=True)  
+    with tab2:
+        df_status_weak = df_weak.groupby('Status')['Fee'].sum().reset_index().sort_values(by='Fee', ascending=False)
+        st.dataframe(df_status_weak.style.format({"Fee": lambda x: f"Rp {x:,.0f}".replace(",", ".")}), use_container_width=True) 
 
-            chart = alt.Chart(df_count).mark_arc(innerRadius=80, outerRadius=150).encode(
-                theta=alt.Theta("Total:Q", title="Total Count"),
-                color=alt.Color("Status Level:N", title="Status Level"),
-                tooltip=["Status Level:N", "Percentage:Q"]
-            ).interactive()
+# with col6:
+#     st.subheader("Distribution of")
+#     with st.container(border = True):
+#         tab1, tab2 = st.tabs(["Status", "Status Level"])
+#         with tab1:
+#             df_count = df.groupby("Status Level").size().reset_index(name="Total")
+#             df_count["Percentage"] = (df_count["Total"] / df_count["Total"].sum()) * 100
+#             df_count["Percentage"] = df_count["Percentage"].round(1)  
 
-            st.altair_chart(chart, use_container_width=True)
-        with tab2:
-            df_count = df.groupby(["Status Level", "Status"]).size().reset_index(name="Count")
-            fig = px.bar(df_count, x="Status Level", y="Count", color="Status", barmode="group")
-            fig.update_layout(
-                legend=dict(title_text=""),  
-                legend_orientation="h",
-                legend_yanchor="bottom",
-                legend_y=1.1,
-                legend_xanchor="center",
-                legend_x=0.5,
-                xaxis_title="Status Level",
-            )
-            st.plotly_chart(fig, use_container_width=True)
+#             chart = alt.Chart(df_count).mark_arc(innerRadius=80, outerRadius=150).encode(
+#                 theta=alt.Theta("Total:Q", title="Total Count"),
+#                 color=alt.Color("Status Level:N", title="Status Level"),
+#                 tooltip=["Status Level:N", "Percentage:Q"]
+#             ).interactive()
+
+#             st.altair_chart(chart, use_container_width=True)
+#         with tab2:
+#             df_count = df.groupby(["Status Level", "Status"]).size().reset_index(name="Count")
+#             fig = px.bar(df_count, x="Status Level", y="Count", color="Status", barmode="group")
+#             fig.update_layout(
+#                 legend=dict(title_text=""),  
+#                 legend_orientation="h",
+#                 legend_yanchor="bottom",
+#                 legend_y=1.1,
+#                 legend_xanchor="center",
+#                 legend_x=0.5,
+#                 xaxis_title="Status Level",
+#             )
+#             st.plotly_chart(fig, use_container_width=True)
